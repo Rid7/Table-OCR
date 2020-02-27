@@ -6,7 +6,7 @@ Recognize tables from images and restore them into word.
    Load the unet model to extract table lines from the input image 
 2. python test.py  
    Feed the input image
-3. python restore_table.py
+3. python image2word.py  
    Restore table use opencv & python-docx
 
 ### Tips  
