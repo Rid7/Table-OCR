@@ -361,9 +361,9 @@ def draw_line(src, scale=30):
 
     gray = cv2.cvtColor(src, cv2.COLOR_BGR2GRAY)
 
-    erode_size = 3
-    element = cv2.getStructuringElement(cv2.MORPH_RECT, (erode_size, erode_size), (-1, -1))
-    gray = cv2.morphologyEx(gray, cv2.MORPH_OPEN, element)
+    # erode_size = 3
+    # element = cv2.getStructuringElement(cv2.MORPH_RECT, (erode_size, erode_size), (-1, -1))
+    # gray = cv2.morphologyEx(gray, cv2.MORPH_OPEN, element)
 
     thresh = cv2.adaptiveThreshold(gray, 255, cv2.ADAPTIVE_THRESH_MEAN_C, cv2.THRESH_BINARY, 15, -10)
     Image.fromarray(thresh).show()
