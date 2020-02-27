@@ -16,10 +16,10 @@ can't deal with some complex samples like tortuous and colorful receipts, I am s
 ### To do
 I am handling table recognition like this [image](https://pic3.zhimg.com/a1b8009516c105556d2a2df319c72d72_b.jpg), struggling with the dataset.
 Optimistically, there could be a radical change in weeks. If you are researching page 
-layout and table recognition, please contact me.[lizongxi1995@gmail.com]()
+layout and table recognition, please contact me.[lizongxi1995@gmail.com](lizongxi1995@gmail.com)
 
 ### Reference and some useful projects
-1. [https://github.com/chineseocr/table-ocr.git]()
-2. [https://github.com/weidafeng/TableCell.git]()
+1. [https://github.com/chineseocr/table-ocr.git](https://github.com/chineseocr/table-ocr.git)
+2. [https://github.com/weidafeng/TableCell.git](https://github.com/weidafeng/TableCell.git)
 3. [腾讯表格识别方案简述](https://blog.csdn.net/Tencent_TEG/article/details/94080906?depth_1-utm_source=distribute.pc_relevant.none-task&utm_source=distribute.pc_relevant.none-task)
 4. [OpenCV-检测并提取表格](https://blog.csdn.net/yomo127/article/details/52045146?depth_1-utm_source=distribute.pc_relevant.none-task&utm_source=distribute.pc_relevant.none-task)
