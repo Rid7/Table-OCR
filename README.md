@@ -11,7 +11,8 @@ Maybe one of the best open weights of document text detection and recognition.
 Google drive link   
 [PSE weight](https://drive.google.com/file/d/1NAQ8aiOLfyKt0xAmpszhO8YbwAxuVG8o/view?usp=sharing)  
 [CRNN weight](https://drive.google.com/file/d/1KIMhHtL7azYcYRfv_0VSKXi-OI25dCml/view?usp=sharing)  
-[Unet weight](https://drive.google.com/file/d/1e5HET6dulQcFGv_V5VPvFnmKAjF_cwEq/view?usp=sharing)
+[Unet weight](https://drive.google.com/file/d/1e5HET6dulQcFGv_V5VPvFnmKAjF_cwEq/view?usp=sharing)  
+[pkl for edit distance](https://drive.google.com/file/d/1RAANkxEa_GmSDvUbwodUZ_7z95Ihz1Ux/view?usp=sharing)
 ### How to run
 ~~1. python server.py~~  
 ~~Load the unet model to extract table lines from the input image~~  
