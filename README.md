@@ -19,10 +19,10 @@ Google drive link
 ~~2. python test.py~~  
 ~~Feed the input image~~  
 (Table line detection model is not very robust, but I will reserve the related files maybe I will update it later.
-开源的表格线检测模型泛化能力不够强，暂时搁置。保留之前的代码和模型，仅作参考)
-3. Edit PSE/config/config.py, crnn/config/config.py to set use GPU/CPU and model path.  
-   修改PSE/config/config.py, crnn/config/config.py这两个文件配置文件，配置运行设备和模型地址
-4. python image2word.py  
+开源的表格线检测模型泛化能力不够强，暂时搁置。保留之前的代码和模型，仅作参考)  
+1. Edit PSE/config/config.py, crnn/config/config.py to set use GPU/CPU and model path.  
+   修改PSE/config/config.py, crnn/config/config.py这两个文件配置文件，配置运行设备和模型地址  
+2. python image2word.py  
    Restore table use opencv & python-docx, text detection: psenet, text recognition: crnn & edit distance  
    采用opencv和python-docx还原表格， 文本检测部分采用psenet， 文本识别部分采用resnet18-bilstm-ctc加编辑距离校正
 
