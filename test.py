@@ -7,7 +7,7 @@ import time
 
 url = 'http://127.0.0.1:8282/table_line'
 
-image = cv2.imread(r"./test/1.jpg")
+image = cv2.imread(r"./test/test_3.jpg")
 image_b64 = base64.b64encode(cv2.imencode('.jpg', image)[1])
 start = time.time()
 r = requests.post(url, data={"img": image_b64})
@@ -18,4 +18,4 @@ img_np_arr = np.fromstring(img_byte, np.uint8)
 image = cv2.imdecode(img_np_arr, cv2.IMREAD_COLOR)
 end = time.time()
 print(end-start)
-Image.fromarray(image).save('./predict/1.jpg')
+Image.fromarray(image).save('./predict/test_3.jpg')

@@ -1,10 +1,5 @@
 import os
 os.environ["CUDA_VISIBLE_DEVICES"] = "1"
-from keras.backend.tensorflow_backend import set_session
-import tensorflow as tf
-config = tf.ConfigProto()
-config.gpu_options.per_process_gpu_memory_fraction = 0.2
-set_session(tf.Session(config=config))
 import warnings
 warnings.filterwarnings("ignore")
 from simplified_unet import *
@@ -49,7 +44,7 @@ def unet_table(img):
     unet_result = np.squeeze(unet_result, axis=0)
 
     output_img = np.zeros_like(img_standard)
-    output_img[unet_result > 0.3] = 255
+    output_img[unet_result < 0.3] = 255
     output_img = output_img.astype(np.uint8)
 
     # output_img = cv2.resize(output_img, (img_shape[1], img_shape[0]), interpolation=cv2.INTER_LINEAR)
