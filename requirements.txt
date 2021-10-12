@@ -4,6 +4,6 @@ numpy==1.16.0
 sanic==19.6.0
 tensorflow_gpu==1.13.1
 Keras==2.2.4
-opencv_python==4.0.0.21
+opencv_python==4.1.1.26
 Pillow==5.1.0
 scikit_learn==0.20.1
