@@ -2,7 +2,7 @@ python_docx==0.8.10
 requests==2.20.0
 numpy==1.16.0
 sanic==19.6.0
-tensorflow_gpu==1.13.1
+tensorflow_gpu==2.5.2
 Keras==2.2.4
 opencv_python==4.0.0.21
 Pillow==5.1.0
