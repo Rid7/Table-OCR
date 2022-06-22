@@ -1,6 +1,6 @@
 python_docx==0.8.10
 requests==2.20.0
-numpy==1.16.0
+numpy==1.22.0
 sanic==19.6.0
 tensorflow_gpu==1.13.1
 Keras==2.2.4
